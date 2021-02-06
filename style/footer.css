@@ -1,7 +1,7 @@
 footer {
   width: 100%;
   background-color: #061e37;
-  padding: 98px 0 104px;
+  padding: 98px 0 100px;
 }
 .menu-list-item-footer a:hover {
   color: #ffffff;
@@ -47,4 +47,7 @@ footer {
   width: 24px;
   position: relative;
   top: -4px;
+}
+li a {
+  cursor: pointer;
 }
