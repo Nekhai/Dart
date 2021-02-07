@@ -21,10 +21,17 @@
   text-transform: uppercase;
   margin: 0 0 0 25px;
 }
-.services-block-btn-wrap a {
+.services-block-btn-img {
   border: 5px solid transparent;
   border-top: 5px solid black;
   display: block;
+}
+.services-block-btn {
+  padding: 5px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
 }
 .services-block-unhide {
   display: flex;
