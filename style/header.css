@@ -24,6 +24,7 @@ header {
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
+  padding: 0 0 0 10px;
 }
 .logo-text span {
   font-weight: 600;
