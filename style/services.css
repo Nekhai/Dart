@@ -67,8 +67,8 @@
   padding: 0 80px;
   display: flex;
   justify-content: space-between;
-  background: url(../img/services/Rectangle_1_copy_5.png),
-    url(../img/services/Rectangle_1_copy_3.png);
+  background: url(../img/services/Rectangle_1_copy_5.png) 0 0 / cover no-repeat,
+    url(../img/services/Rectangle_1_copy_3.png) 0 0 / cover no-repeat;
   margin: 100px 0 0 0;
 }
 .services-say-about-comments {
