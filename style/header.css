@@ -8,13 +8,11 @@
 body {
   line-height: 1;
 }
-header {
-  background: url(../img/header/back-header.png),
-    url(../img/header/back-header2.png);
-}
-.menu-conteiner {
+.header {
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  position: fixed;
 }
 .logo {
   display: flex;
@@ -60,33 +58,43 @@ nav {
   color: #ffffff;
   text-align: center;
   line-height: 22px;
+  background: none;
+  cursor: pointer;
+  outline: none;
 }
-.header-content {
+.btn-sign:hover {
+  opacity: 0.8;
+}
+.home-content {
   display: flex;
-  margin: 167px 80px 0 80px;
+  margin: 0 80px;
   justify-content: space-between;
-  padding: 0 0 175px 0;
+  padding: 245px 0 175px;
 }
-.header-text {
+.home-container {
+  background: url(../img/header/back-header.png) 0 0 / cover no-repeat,
+    url(../img/header/back-header2.png) 0 0 / cover no-repeat;
+}
+.home-text {
   flex: 0 1 580px;
 }
-.header-text-tilte {
+h1 {
   color: #ffffff;
   font-size: 55px;
   line-height: 65px;
   text-transform: uppercase;
   font-weight: 800;
 }
-.header-text-description {
+.home-text-description {
   color: #ffffff;
   font-size: 18px;
   line-height: 35px;
 }
-.header-text-btn {
+.home-text-btn {
   display: flex;
   margin: 30px 0 0 0;
 }
-.btn-header {
+.btn {
   display: inline-block;
   text-align: center;
   border-radius: 5px;
@@ -94,27 +102,34 @@ nav {
   height: 55px;
   font-size: 15px;
   text-transform: uppercase;
-  padding: 20px 0 0 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
-.btn-buynow {
+.btn-buy-now {
   width: 150px;
   background-color: #061e37;
   color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
-.btn-tryforfree {
+.btn-buy-now:hover {
+  opacity: 0.8;
+}
+.btn-try-for-free {
   width: 160px;
   background-color: #ffffff;
   color: #061e37;
   font-weight: 700;
   margin: 0 0 0 30px;
 }
-.header-video {
-  height: 320px;
-  width: 600px;
+.btn-try-for-free:hover {
+  background-color: aliceblue;
+}
+.home-video {
+  flex: 0 0 600px;
+  max-height: 320px;
   border-radius: 5px;
   opacity: 0.9;
-  background-color: #ffffff;
   border: 1px solid;
   display: flex;
   align-items: center;
@@ -123,16 +138,23 @@ nav {
     url(../img/header/back-video2.png);
 }
 .wrap-btn-watch {
+  display: flex;
+  justify-content: center;
+}
+.watch {
+  background: none;
+  border: none;
+  outline: none;
   width: 60px;
   height: 60px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: #061e37;
-  margin: 0 auto;
   cursor: pointer;
+  display: block;
 }
-.watch {
-  position: absolute;
+.watch:hover {
+  opacity: 0.8;
 }
 .watch::after {
   content: "";
@@ -141,12 +163,11 @@ nav {
   border: 7px solid transparent;
   border-left: 10px solid white;
   left: 25px;
-  top: 23px;
 }
 .text-for-video {
   color: #061e37;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 25px 0 0 0;
+  padding: 20px 0 0 0;
 }
