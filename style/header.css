@@ -24,10 +24,7 @@ header {
   color: #ffffff;
   font-weight: 700;
   text-transform: uppercase;
-<<<<<<< HEAD
   margin: 0 0 0 10px;
-=======
->>>>>>> bbeec26000872e3bb53b28513c9ad34f14172caa
 }
 .logo-text span {
   font-weight: 600;
@@ -44,10 +41,7 @@ nav {
   margin: 0 25px;
 }
 .menu-list-item a {
-<<<<<<< HEAD
   font-size: 15px;
-=======
->>>>>>> bbeec26000872e3bb53b28513c9ad34f14172caa
   color: #ffffff;
   font-weight: 600;
   line-height: 25px;
