@@ -41,6 +41,7 @@ nav {
   margin: 0 25px;
 }
 .menu-list-item a {
+  font-size: 15px;
   color: #ffffff;
   font-weight: 600;
   line-height: 25px;
