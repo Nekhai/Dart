@@ -15,55 +15,56 @@
 </head>
 <body>
     <!-- header -->
-    <header>
-        <menu class="menu-conteiner" id="home">
-            <div class="logo">
-                <div class="logo-img">
-                    <img src="img/header/Shape_1.svg" alt="logo">
-                </div>
-                <div class="logo-text">
-                    <span>Dart</span> 
-                    <p>service manager</p>
-                </div>
+    <header class="header">
+        <div class="logo">
+            <div class="logo-img">
+                <img src="img/header/Shape_1.svg" alt="logo">
             </div>
-            <nav>
-                <ul class="list">
-                    <li class="menu-list-item"><a href="#home">Home</a></li>
-                    <li class="menu-list-item"><a href="#service">Service</a></li>
-                    <li class="menu-list-item"><a href="#extension">Extension</a></li>
-                    <li class="menu-list-item"><a href="#pricing">Pricing</a></li>
-                    <li class="menu-list-item"><a href="#help">Help</a></li>
-                </ul>
-            </nav>
-            <div class="sign">
-                <div class="wrap-btn-sign">
-                    <a href="#" class="btn-sign" target="blank">sign up</a>
-                </div>
+            <div class="logo-text">
+                <span>Dart</span> 
+                <p>service manager</p>
             </div>
-        </menu>
-        <div class="header-content">
-            <div class="header-text">
-                <div class="header-text-tilte">
-                    <p>lorem Ipsum Dolor sit amet</p>
+        </div>
+        <nav>
+            <ul class="list">
+                <li class="menu-list-item"><a href="#home">Home</a></li>
+                <li class="menu-list-item"><a href="#service">Service</a></li>
+                <li class="menu-list-item"><a href="#extension">Extension</a></li>
+                <li class="menu-list-item"><a href="#pricing">Pricing</a></li>
+                <li class="menu-list-item"><a href="#help">Help</a></li>
+            </ul>
+        </nav>
+        <div class="sign">
+            <div class="wrap-btn-sign">
+                <button class="btn-sign">sign up</button>
+            </div>
+        </div>
+    </header>
+    <!-- home -->
+    <div class="home-container">
+        <div class="home-content" id="home">
+            <div class="home-text">
+                <div class="home-text-tilte">
+                    <h1>lorem Ipsum Dolor sit amet</h1>
                 </div>
-                <div class="header-text-description">
+                <div class="home-text-description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc
 
                     </p>
                 </div>
-                <div class="header-text-btn">
-                    <div class="wrap-btn-buynow">
-                        <a href="#" class="btn-buynow btn-header" target="blank">buy now</a>
+                <div class="home-text-btn">
+                    <div class="wrap-btn-buy-now">
+                        <button class="btn-buy-now btn">buy now</button>
                     </div>
-                    <div class="wrap-btn-tryforfree">
-                        <a href="#" class="btn-tryforfree btn-header" target="blank">try for free</a>
+                    <div class="wrap-btn-try-for-free">
+                        <button class="btn-try-for-free btn">try for free</button>
                     </div>
                 </div>
             </div>
-            <div class="header-video">
-                <div class="header-video-watch">
+            <div class="home-video">
+                <div class="home-video-watch">
                     <div class="wrap-btn-watch">
-                        <a href="#" class="watch"></a>
+                        <button class="watch"></button>
                     </div>
                     <div class="text-for-video">
                         <p>watch the video</p>
@@ -71,9 +72,9 @@
                 </div>
             </div>
         </div>
-    </header>
+    </div>
     <!-- easy -->
-    <div class="easy-conteiner">
+    <div class="easy-container">
         <div class="easy-title">
             <h2>Easy & Useful</h2>
             <h3>Project Management Tool</h3>
@@ -98,8 +99,8 @@
                 <span class="easy-column-text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
             </div>
         </div>
-        <div class="wrap-btn-getstarted">
-            <a href="#" class="btn-getstarted btn-header">get started</a>
+        <div class="wrap-btn-get-started">
+            <button class="btn-get-started btn">get started</button>
         </div>
         <div class="easy-counts">
             <div class="easy-counts-info business-info">
@@ -137,8 +138,8 @@
         </div>
     </div>
     <!-- services -->
-    <div class="services-conteiner">
-        <div class="services-title">
+    <div class="services-container">
+        <div class="services-title-wrap">
             <h2 id="service">Services</h2>
             <span class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</span>
         </div>
@@ -154,7 +155,9 @@
                         </div>
                     </div>
                     <div class="services-block-btn-wrap">
-                        <a href="#"></a>
+                        <button class="services-block-btn">
+                            <div class="services-block-btn-img"></div>
+                        </button>
                     </div>
                 </div>
                 <div class="services-block-description">
@@ -181,7 +184,9 @@
                     </div>
                 </div>
                 <div class="services-block-btn-wrap">
-                    <a href="#"></a>
+                    <button class="services-block-btn">
+                        <div class="services-block-btn-img"></div>
+                    </button>
                 </div>
             </div>
             <div class="services-block-hide">
@@ -194,7 +199,9 @@
                     </div>
                 </div>
                 <div class="services-block-btn-wrap">
-                    <a href="#"></a>
+                    <button class="services-block-btn">
+                        <div class="services-block-btn-img"></div>
+                    </button>
                 </div>
             </div>
             <div class="services-block-hide">
@@ -207,7 +214,9 @@
                     </div>
                 </div>
                 <div class="services-block-btn-wrap">
-                    <a href="#"></a>
+                    <button class="services-block-btn">
+                        <div class="services-block-btn-img"></div>
+                    </button>
                 </div>
             </div>
             <div class="services-block-hide">
@@ -220,56 +229,58 @@
                     </div>
                 </div>
                 <div class="services-block-btn-wrap">
-                    <a href="#"></a>
+                    <button class="services-block-btn">
+                        <div class="services-block-btn-img"></div>
+                    </button>
                 </div>
             </div>
         </div>
-        <div class="services-say-about">
-            <div class="services-say-about-text">
-                <div class="services-say-about-text-title">
+        <div class="say-about">
+            <div class="say-about-text">
+                <div class="say-about-text-title">
                     <h2>What our customers have to say about us.</h2>
                 </div>
-                <div class="services-say-about-text-discription">
+                <div class="say-about-text-discription">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
                 </div>
-                <div class="services-say-about-text-btn-wrap">
-                    <a href="#" class="btn-header btn-services">Get started</a>
+                <div class="say-about-text-btn-wrap">
+                    <button class="btn btn-services">Get started</button>
                 </div>
             </div>
-            <div class="services-say-about-comments">
-                <div class="services-up-btn-wrap">
-                    <button class="servicer-btn-up-down"><img src="img/services/upload.svg" alt=""></button>
+            <div class="say-about-comments">
+                <div class="say-about-up-btn-wrap">
+                    <button class="say-about-btn-up-down"><img src="img/services/upload.svg" alt=""></button>
                 </div>
-                <div class="services-say-about-comments-column-wrap">
-                    <div class="services-comments-up-column services-comments-column">
-                        <div class="services-column-img-wrap">
+                <div class="say-about-comments-column-wrap">
+                    <div class="say-about-comments-up-column say-about-comments-column">
+                        <div class="say-about-column-img-wrap">
                             <img src="./img/services/Ellipse_2.png" alt="">
                         </div>
-                        <div class="services-column-text-wrap">
-                            <div class="services-column-text-title">
+                        <div class="say-about-column-text-wrap">
+                            <div class="say-about-column-text-title">
                                 <p>John Doe</p>
                             </div>
-                            <div class="services-column-text-description">
+                            <div class="say-about-column-text-description">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
                             </div>
                         </div>
                     </div>
-                    <div class="services-comments-down-column services-comments-column">
-                        <div class="services-column-img-wrap">
+                    <div class="say-about-comments-down-column say-about-comments-column">
+                        <div class="say-about-column-img-wrap">
                             <img src="./img/services/Ellipse_21_copy.png" alt="">
                         </div>
-                        <div class="services-column-text-wrap">
-                            <div class="services-column-text-title">
+                        <div class="say-about-column-text-wrap">
+                            <div class="say-about-column-text-title">
                                 <p>Khalessi</p>
                             </div>
-                            <div class="services-column-text-description">
+                            <div class="say-about-column-text-description">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
                             </div> 
                         </div>
                     </div>
                 </div>
-                <div class="services-down-btn-wrap">
-                    <button class="servicer-btn-up-down"><img src="img/services/upload.svg" alt=""></button>
+                <div class="say-about-down-btn-wrap">
+                    <button class="say-about-btn-up-down"><img src="img/services/upload.svg" alt=""></button>
                 </div>
             </div>
         </div>
