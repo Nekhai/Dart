@@ -45,16 +45,19 @@ h4 {
   font-size: 15px;
   line-height: 20px;
 }
-.wrap-btn-getstarted {
+.wrap-btn-get-started {
   display: flex;
 }
-.btn-getstarted {
+.btn-get-started {
   background-color: #1de9b6;
   width: 150px;
   color: #ffffff;
   font-weight: 700;
   display: inline-block;
   margin: 78px auto 100px;
+}
+.btn-get-started:hover {
+  opacity: 0.8;
 }
 .easy-counts {
   display: flex;
