@@ -1,7 +1,11 @@
-footer {
+.footer {
   width: 100%;
   background-color: #061e37;
   padding: 98px 0 100px;
+}
+.footer-menu-container {
+  display: flex;
+  justify-content: space-between;
 }
 .menu-list-item-footer a:hover {
   color: #ffffff;
