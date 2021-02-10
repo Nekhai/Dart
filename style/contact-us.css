@@ -53,3 +53,6 @@ input::placeholder {
   cursor: pointer;
   outline: none;
 }
+.btn-send:hover {
+  opacity: 0.8;
+}
