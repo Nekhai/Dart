@@ -1,6 +1,10 @@
 .our-team-conteiner {
-  margin: 100px 478px 100px;
+  margin: 100px auto;
   text-align: center;
+}
+.our-team-title {
+  max-width: 555px;
+  margin: 0 auto;
 }
 .our-team-title span {
   margin: 25px auto 0;
@@ -15,7 +19,8 @@
   margin: 98px 0 0 0;
 }
 .our-team-foto-title {
-  margin: 60px 0 0 0;
+  margin: 60px auto 0;
+  max-width: 645px;
 }
 h5 {
   font-size: 18px;
