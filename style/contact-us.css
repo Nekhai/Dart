@@ -1,11 +1,11 @@
 .contact-us-container {
   background-color: #fafafa;
 }
-.contact-us-title {
+.contact-us-title-wrap {
   padding: 49px 0 0;
   text-align: center;
 }
-.contact-us-title span {
+.contact-us-title-wrap span {
   color: #061e37;
   margin: 29px auto 0;
 }
