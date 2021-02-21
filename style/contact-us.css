@@ -1,0 +1,58 @@
+.contact-us-container {
+  background-color: #fafafa;
+}
+.contact-us-title {
+  padding: 49px 0 0;
+  text-align: center;
+}
+.contact-us-title span {
+  color: #061e37;
+  margin: 29px auto 0;
+}
+#form {
+  display: flex;
+  max-width: 600px;
+  flex-wrap: wrap;
+  margin: 49px auto 0;
+  padding: 0 0 100px 0;
+  justify-content: space-between;
+}
+.input-wrap {
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  width: 280px;
+  height: 50px;
+  border: 1px solid #061e37;
+  padding: 16px;
+}
+.input-field {
+  border: none;
+  outline: none;
+  background: none;
+}
+.textarea-wrap {
+  width: 600px;
+  height: 150px;
+}
+input::placeholder {
+  color: #061e37;
+}
+.checkbox {
+  margin: 18px 9px 0 0;
+}
+.btn-send {
+  width: 130px;
+  height: 50px;
+  background-color: #1de9b6;
+  border: none;
+  padding: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-send:hover {
+  opacity: 0.8;
+}
