@@ -43,6 +43,9 @@ h5 {
   width: 18px;
   margin: 0 12px;
 }
+.social-icon:hover {
+  opacity: 0.6;
+}
 .our-team-btn-wrap img {
   width: 23px;
   cursor: pointer;

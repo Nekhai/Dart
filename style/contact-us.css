@@ -1,11 +1,11 @@
 .contact-us-container {
   background-color: #fafafa;
 }
-.contact-us-title {
+.contact-us-title-wrap {
   padding: 49px 0 0;
   text-align: center;
 }
-.contact-us-title span {
+.contact-us-title-wrap span {
   color: #061e37;
   margin: 29px auto 0;
 }
@@ -29,6 +29,7 @@
   border: none;
   outline: none;
   background: none;
+  width: 100%;
 }
 .textarea-wrap {
   width: 600px;
@@ -39,6 +40,16 @@ input::placeholder {
 }
 .checkbox {
   margin: 18px 9px 0 0;
+}
+#textarea {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+}
+#textarea::placeholder {
+  color: #061e37;
 }
 .btn-send {
   width: 130px;
