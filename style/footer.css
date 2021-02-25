@@ -30,13 +30,21 @@
   font-size: 15px;
   line-height: 25px;
 }
+.footer-list a:hover {
+  opacity: 1;
+}
 .footer-text {
   display: flex;
   justify-content: space-between;
 }
 .footer-text-social {
-  opacity: 0.2;
   margin: 59px 68px 0 0;
+}
+.footer-social-icon {
+  opacity: 0.2;
+}
+.footer-social-icon:hover {
+  opacity: 1;
 }
 .footer-nav {
   margin: 7px 55px 0 0;
@@ -51,4 +59,7 @@
   width: 24px;
   position: relative;
   top: -4px;
+}
+.menu-list-item-footer:hover {
+  opacity: 0.5;
 }

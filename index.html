@@ -53,9 +53,7 @@
                     <h1>lorem Ipsum Dolor sit amet</h1>
                 </div>
                 <div class="home-text-description">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc
-
-                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamc</p>
                 </div>
                 <div class="home-text-btn">
                     <div class="wrap-btn-buy-now">
@@ -80,8 +78,8 @@
     </div>
     <!-- easy -->
     <div class="easy-container">
-        <div class="easy-title">
-            <h2>Easy & Useful</h2>
+        <div class="easy-title-wrap">
+            <h2 id="easy">Easy & Useful</h2>
             <h3>Project Management Tool</h3>
             <span class="title-text">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
@@ -245,7 +243,7 @@
     <div class="say-about-container">
         <div class="say-about-text">
             <div class="say-about-text-title">
-                <h2>What our customers have to say about us.</h2>
+                <h2 id="about_us">What our customers have to say about us.</h2>
             </div>
             <div class="say-about-text-discription">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
@@ -293,46 +291,52 @@
     </div>
     <!-- our team -->
     <div class="our-team-container">
-        <div class="our-team-title">
-            <h2>Our Team</h2>
+        <div class="our-team-title-wrap">
+            <h2 id="our_team">Our Team</h2>
             <span class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</span>
         </div>
-        <div class="our-team-foto-block">
-            <div class="our-team-foto">
+        <div class="our-team-list">
+            <div class="our-team-btn-wrap">
+                <button class="our-team-btn our-team-btn-left"><img src="img/our-team/up.svg" alt=""></button>
+            </div>
+            <div class="our-team-item">
                 <img src="img/our-team/Ellipse_3_copy_2.png" alt="">
             </div>
-            <div class="our-team-foto">
+            <div class="our-team-item">
                 <img src="img/our-team/Ellipse_3.png" alt="">
             </div>
-            <div class="our-team-foto">
+            <div class="our-team-item">
                 <img src="img/our-team/Ellipse_3_copy.png" alt="">
             </div>
+            <div class="our-team-btn-wrap">
+                <button class="our-team-btn our-team-btn-right"><img src="img/our-team/up.svg" alt=""></button>
+            </div>
         </div>
-        <div class="our-team-foto-title">
+        <div class="our-team-text-wrap">
             <h5>Sophie Turner</h5>
-            <span class="our-team-title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </span>
+            <span class="our-team-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt </span>
         </div>
         <div class="our-team-social">
             <div class="social-icon">
-                <a href="#"><img src="img/our-team/twitter-social-network-logo.svg" alt=""></a>
+                <a href="https://twitter.com/" target="blank"><img src="img/our-team/twitter-social-network-logo.svg" alt=""></a>
             </div>
             <div class="social-icon">
-                <a href="#"><img src="img/our-team/facebook-logo.svg" alt=""></a>
+                <a href="https://www.facebook.com/" target="blank"><img src="img/our-team/facebook-logo.svg" alt=""></a>
             </div>
             <div class="social-icon">
-                <a href="#"><img src="img/our-team/linkedin-letters.svg" alt=""></a>
+                <a href="https://www.linkedin.com/" target="blank"><img src="img/our-team/linkedin-letters.svg" alt=""></a>
             </div>
             <div class="social-icon">
-                <a href="#"><img src="img/our-team/dribbble-logo.svg" alt=""></a>
+                <a href="https://dribbble.com/" target="blank"><img src="img/our-team/dribbble-logo.svg" alt=""></a>
             </div>
             <div class="social-icon">
-                <a href="#"><img src="img/our-team/iconmonstr-behance-1.svg" alt=""></a>
+                <a href="https://www.behance.net/" target="blank"><img src="img/our-team/iconmonstr-behance-1.svg" alt=""></a>
             </div>
         </div>
     </div>
     <!-- contact-us -->
     <div class="contact-us-container">
-        <div class="contact-us-title">
+        <div class="contact-us-title-wrap">
             <h2>Contact Us</h2>
             <span class="title-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</span>
         </div>
@@ -350,7 +354,7 @@
                 <input placeholder="Phone" class="input-field" type="tel">
             </div>
             <div class="input-wrap textarea-wrap">
-                <input placeholder="Message" type="text" class="input-field" id="textarea">
+                <textarea name="textarea" id="textarea" placeholder="Message"></textarea>
             </div>
             <div>
                 <input class="checkbox" type="checkbox" name="newslatter" value="yes">subscribe to the newsletter</p>
@@ -388,26 +392,26 @@
         <div class="footer-text">
             <div class="footer-text-about">
                 <ul class="footer-list">
-                    <li><a href="#">Privecy Policy</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">About Us</a></li>
+                    <li><a href="#easy">Easy & Useful</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#our_team">Our Team</a></li>
                 </ul>
             </div>
             <div class="footer-text-social our-team-social">
                 <div class="social-icon footer-social-icon">
-                   <a href="#"><img src="img/footer/facebook-logo (1).svg" alt=""></a>
+                    <a href="https://www.facebook.com/" target="blank"><img src="img/footer/facebook-logo (1).svg" alt=""></a>
                 </div>
                 <div class="social-icon footer-social-icon">
-                    <a href="#"><img src="img/our-team/twitter-social-network-logo.svg" alt=""></a>
+                    <a href="https://twitter.com/" target="blank"><img src="img/our-team/twitter-social-network-logo.svg" alt=""></a>
                 </div>
                 <div class="social-icon footer-social-icon">
-                    <a href="#"><img src="img/our-team/linkedin-letters.svg" alt=""></a>
+                    <a href="https://www.linkedin.com/" target="blank"><img src="img/our-team/linkedin-letters.svg" alt=""></a>
                 </div>
                 <div class="social-icon footer-social-icon">
-                    <a href="#"><img src="img/our-team/dribbble-logo.svg" alt=""></a>
+                    <a href="https://dribbble.com/" target="blank"><img src="img/our-team/dribbble-logo.svg" alt=""></a>
                 </div>
                 <div class="social-icon footer-social-icon">
-                    <a href="#"><img src="img/our-team/iconmonstr-behance-1.svg" id="behance" alt=""></a>
+                    <a href="https://www.behance.net/" target="blank"><img src="img/our-team/iconmonstr-behance-1.svg" id="behance" alt=""></a>
                 </div>
             </div>
         </div>
