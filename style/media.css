@@ -91,7 +91,7 @@
   h2 {
     font-size: 40px;
   }
-  .easy-title {
+  .easy-title-wrap {
     margin: 50px 0 0;
   }
   .easy-column {
@@ -101,6 +101,10 @@
   .easy-column-text {
     flex: 1 1;
     padding: 15px 0 0;
+  }
+  .easy-column-text-description {
+    display: inline-block;
+    max-width: 400px;
   }
   .btn-get-started {
     margin: 50px auto;
@@ -134,7 +138,7 @@
     padding: 0 10px;
   }
   .say-about-text {
-    padding: 50px 0 0;
+    padding: 50px 5px 0;
   }
   .say-about-comments-column {
     flex-direction: column;
@@ -161,29 +165,36 @@
     margin: 50px auto;
     padding: 0 5px;
   }
-  .our-team-foto-block {
+  .our-team-list {
     flex-direction: column;
     margin: 15px 0 0;
   }
-  .our-team-foto {
+  .our-team-item {
     margin: 10px auto;
   }
-  .our-team-foto-title {
-    margin: 15px 0 0;
+  .our-team-text-wrap {
+    margin: 15px auto 0;
+  }
+  .our-team-btn-left {
+    transform: rotate(0deg);
+  }
+  .our-team-btn-right {
+    transform: rotate(180deg);
   }
   .input-wrap {
     width: 48%;
     margin: 0 0 10px;
   }
   #form {
-    margin: 25px 5px 0;
-    padding: 0 0 50px 0;
+    margin: 25px auto 0;
+    padding: 0 5px 50px;
   }
   .textarea-wrap {
     width: 100%;
   }
   .wrap-btn-send {
-    margin: 15px auto 0;
+    margin: 15px 0 0;
+    float: right;
   }
   .footer-text {
     flex-direction: column;
@@ -263,6 +274,12 @@
   .btn-sign {
     width: 50px;
   }
-  .footer-burger-menu {
+}
+@media (max-width: 400px) {
+  .wrap-btn-send {
+    margin: 15px auto 0;
+  }
+  .checkbox-wrap {
+    margin: 0 auto;
   }
 }

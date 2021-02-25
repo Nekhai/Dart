@@ -47,6 +47,7 @@ input::placeholder {
   outline: none;
   border: none;
   background: none;
+  resize: none;
 }
 #textarea::placeholder {
   color: #061e37;
