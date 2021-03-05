@@ -16,10 +16,13 @@ body {
   justify-content: space-between;
   width: 100%;
   position: fixed;
+  align-items: center;
+  margin: 50px 0 0 0;
 }
 .logo {
   display: flex;
-  margin: 50px 0 0 80px;
+  margin: 0 0 0 80px;
+  align-items: center;
 }
 .logo-text {
   color: #ffffff;
@@ -29,10 +32,6 @@ body {
 }
 .logo-text span {
   font-weight: 600;
-}
-
-nav {
-  margin: 58px 0 0 0;
 }
 .list {
   display: flex;
@@ -51,7 +50,7 @@ nav {
   color: #061e37;
 }
 .wrap-btn-sign {
-  margin: 53px 80px 0 0;
+  margin: 0 80px 0 0;
 }
 .btn-sign {
   width: 80px;
